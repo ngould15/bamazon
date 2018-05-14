@@ -5,7 +5,7 @@ The app takes in orders from customers and depletes stock from the store's inven
 
 <h2> Customer View </h2>
 
-![Optional Text](../master/assets/images/Hangman.png)
+![Available Products on BAM-azon](../master/images/productlist.png)
 
 This includes views of the prompts and the responses after their selection (for the different selection options).
 
