@@ -10,9 +10,9 @@ Upon running the Node application called bamazonCustomer.js, you will first see 
 ![Available Products on BAM-azon](../master/images/productlist.png)
 
 The app will then prompt users with two messages.  The first should ask them the ID of the product they would like to buy.
-The second message should ask how many of the product they would like to buy.  Once the customer has placed the order, your application should check if your store has enough of the product to meet the customer's request.
+The second message should ask how many of the product they would like to buy.
 
-If your store does have enough of the product, you should fulfill the customer's order.  This will update the SQL database to reflect the remaining quantity and once the update goes through, the customer will see the total cost of their purchase.
+Once the customer has placed the order, your application should check if your store has enough of the product to meet the customer's request.  If your store does have enough of the product, you should fulfill the customer's order.  This will update the SQL database to reflect the remaining quantity and once the update goes through, the customer will see the total cost of their purchase.
 
 ![Available Products on BAM-azon](../master/images/purchaseproduct.png)
 
