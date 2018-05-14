@@ -1,4 +1,4 @@
-#BAM-azon!
+<h1>BAM-azon!</h1>
 <h1>Project Description</h1>
 
 The app takes in orders from customers and depletes stock from the store's inventory. Be sure to save and require the MySQL and Inquirer npm packages.  The app will need these for data input and storage.  This app will also track product sales across the departments and then provide a summary of the highest-grossing departments in the store.
