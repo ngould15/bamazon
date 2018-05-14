@@ -48,38 +48,29 @@ Once the new product has been added, it will appear on the "View Products for Sa
 ![Manager Menu Options](../master/images/UpdatedProductList.png)
 
 <h2>Supervisor View</h2>
-Create a new MySQL table called departments. Your table should include the following columns:
 
-department_id
+Running the Node application called bamazonSupervisor.js will prompt the supervisor 'What would you like to do?' and give the following options:
 
-department_name
+"View Product Sales by Department", "Create New Department", "End Session"
 
-over_head_costs (A dummy number you set for each department)
+![Manager Menu Options](../master/images/supervisormenu.png)
 
-Modify the products table so that there's a product_sales column and modify the bamazonCustomer.js app so that this value is updated with each individual products total revenue from each sale.
+When a supervisor selects "View Product Sales by Department", the app will display a summarized table in the terminal/bash window including the following, Department ID, Department Name, Overhead Costs, Product Sales, Total Profit.
 
-Modify your bamazonCustomer.js app so that when a customer purchases anything from the store, the price of the product multiplied by the quantity purchased is added to the product's product_sales column.
+![Supervisor Menu Options](../master/images/productsalesbydept.png)
 
-Make sure your app still updates the inventory listed in the products column.
-Create another Node app called bamazonSupervisor.js. Running this application will list a set of menu options:
+When a customer makes a purchase on the bamazonCustomer.js application, the profits will reflect accordingly in the "View Product Sales by Department" menu option.
 
-View Product Sales by Department
+For example, a customer purchases 30 Disposable Razors 4 count and their total is $164.10.  This will increase the <b>Total Product Sales</b>, as well as the <b>Total Profit</b> by $164.10.
 
-Create New Department
+![Supervisor Menu Options](../master/images/increasebeautyprofits.png)
 
-When a supervisor selects View Product Sales by Department, the app should display a summarized table in their terminal/bash window. Use the table below as a guide.
+![Supervisor Menu Options](../master/images/profitincrease.png)
 
-department_id	department_name	over_head_costs	product_sales	total_profit
-01	Electronics	10000	20000	10000
-02	Clothing	60000	100000	40000
-The total_profit column should be calculated on the fly using the difference between over_head_costs and product_sales. total_profit should not be stored in any database. You should use a custom alias.
+When a supervisor selects "Create New Department", the app will prompt the supervisor for the "Department Name", "Overhead Cost" and "Product Sales".
 
-If you can't get the table to display properly after a few hours, then feel free to go back and just add total_profit to the departments table.
+![Supervisor Menu Options](../master/images/createnewdept.png)
 
-Hint: You may need to look into aliases in MySQL.
+Once the new department is input with all of the requested information, the Product Sales can be viewed in the table by selecting "View Product Sales by Department."
 
-Hint: You may need to look into GROUP BYs.
-
-Hint: You may need to look into JOINS.
-
-HINT: There may be an NPM package that can log the table to the console. What's is it? Good question :)
+![Supervisor Menu Options](../master/images/newdeptproductsales.png)
