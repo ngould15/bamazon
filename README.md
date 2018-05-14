@@ -25,10 +25,7 @@ If the store does not have enough of the product, the app will log "Sorry, there
 
 Running the Node application called bamazonManager.js will prompt the manager 'What would you like to do?' and give the following options:
 
-View Products for Sale
-View Low Inventory
-Add to Inventory
-Add New Product
+"View Products for Sale", "View Low Inventory", "Add to Inventory", "Add New Product"
 
 ![Manager Menu Options](../master/images/managermenu.png)
 
@@ -40,8 +37,11 @@ If a manager selects "View Low Inventory", then the app will list all items with
 
 If a manager selects "Add to Inventory", your app should display a prompt that will let the manager "add more" of any item currently in the store.
 
+![Manager Menu Options](../master/images/addtoinventory.png)
+
 If a manager selects "Add New Product", it should allow the manager to add a completely new product to the store.
 
+![Manager Menu Options](../master/images/addnewproduct.png)
 
 <h2>Supervisor View</h2>
 Create a new MySQL table called departments. Your table should include the following columns:
