@@ -35,13 +35,17 @@ If a manager selects "View Products for Sale", the app will list every available
 
 If a manager selects "View Low Inventory", then the app will list all items with an inventory count lower than five.
 
-If a manager selects "Add to Inventory", your app should display a prompt that will let the manager "add more" of any item currently in the store.
+If a manager selects "Add to Inventory", the app will display a prompt that will let the manager "add more" inventory of any item currently in the store.
 
 ![Manager Menu Options](../master/images/addtoinventory.png)
 
-If a manager selects "Add New Product", it should allow the manager to add a completely new product to the store.
+If a manager selects "Add New Product", it will allow the manager to add a completely new product to the store. This will prompt the manager to input a Product Name, select the Department from current categories, input a Price and input the Quantity Available.
 
 ![Manager Menu Options](../master/images/addnewproduct.png)
+
+Once the new product has been added, it will appear on the "View Products for Sale" list.
+
+![Manager Menu Options](../master/images/UpdatedProductList.png)
 
 <h2>Supervisor View</h2>
 Create a new MySQL table called departments. Your table should include the following columns:
